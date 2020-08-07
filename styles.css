@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
 
 :root {
-    --primaryColor: #3185FC;
+    --primaryColor: #d3dbff;
     --mainWhite: #FFFFFF;
     --mainBlack: #222222;
     --mainGrey: #ECECEC;
@@ -66,3 +66,37 @@ body {
 }
 /* -------------------- End of Navbar -------------------- */
 /* -------------------- Hero -------------------- */
+.hero {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner {
+    text-align: center;
+    background: var(--mainBlack);
+    display: inline-block;
+    padding: 2rem;
+}
+.banner-title {
+    font-size: 2.4rem;
+    letter-spacing: var(--mainSpacing);
+    margin-bottom: 3rem;
+    color: var(--mainWhite);
+}
+.banner-btn {
+    padding: 1rem 3rem;
+    text-transform: uppercase;
+    letter-spacing: var(--mainSpacing);
+    font-size: 1rem;
+    background: var(--primaryColor);
+    color: var(--mainBlack);
+    border: 1px solid var(--primaryColor);
+    transition: var(--mainTransition);
+    cursor: pointer;
+}
+.banner-btn:hover {
+    background: transparent;
+    color: var(--primaryColor);
+}
+/* End of hero */
