@@ -23,7 +23,7 @@ body {
     background: var(--mainWhite);
     position: sticky;
     top: 0;
-    height: 100px;
+    height: 60px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -37,9 +37,32 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 1.5rem;
 }
 .nav-title {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
+.logo {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav-icon {
+    font-size: 1.5rem;
+}
+.cart-btn {
+    position: relative;
+    cursor: pointer;
+}
+.cart-items {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: var(--primaryColor);
+    padding: 0 5px;
+    border-radius: 30%;
+    color: var(--mainWhite);
+}
+/* -------------------- End of Navbar -------------------- */
+/* -------------------- Hero -------------------- */
