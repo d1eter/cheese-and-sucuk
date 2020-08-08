@@ -1,0 +1,159 @@
+{
+    "items": [
+        {
+            "sys": { "id": 1},
+            "fields": {
+                "title": "Sandwich 1",
+                "price": 8,
+                "image": { "fields": { "file": { 
+                "url": "./images/menu-item-1.jpg" } }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 2
+            },
+            "fields": {
+                "title": "Sandwich 2",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-2.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 3
+            },
+            "fields": {
+                "title": "Sandwich 3",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-3.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 4
+            },
+            "fields": {
+                "title": "Sandwich 4",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-4.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 5
+            },
+            "fields": {
+                "title": "Sandwich 5",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-5.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 6
+            },
+            "fields": {
+                "title": "Sandwich 6",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-6.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 7
+            },
+            "fields": {
+                "title": "Sandwich 7",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-7.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 8
+            },
+            "fields": {
+                "title": "Sandwich 8",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-8.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 9
+            },
+            "fields": {
+                "title": "Sandwich 9",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-9.jpg"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "sys": {
+                "id": 10
+            },
+            "fields": {
+                "title": "Sandwich 10",
+                "price": 8,
+                "image": {
+                    "fields": {
+                        "file": {
+                            "url": "./images/menu-item-10.jpg"
+                        }
+                    }
+                }
+            }
+        }
+
+    ]
+}
