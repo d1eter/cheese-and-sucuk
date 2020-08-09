@@ -63,7 +63,7 @@ body {
     position: absolute;
     top: -8px;
     right: -8px;
-    background: var(--primaryColor);
+    background: #e8505b;
     padding: 0 5px;
     border-radius: 30%;
     color: var(--mainWhite);
@@ -145,7 +145,8 @@ body {
     position: absolute;
     top: 70%;
     right: 0;
-    background: var(--primaryColor);
+    background: #e8505b;
+    color: var(--mainWhite);
     border: none;
     text-transform: uppercase;
     padding: 0.5rem 0.75rem;
@@ -196,7 +197,7 @@ body {
     height: 100%;
     background: transparent;
     transition: var(--mainTransition);
-    background: #b2ebf2;
+    background: rgb(178, 235, 242, 0.5);    
     z-index: 2;
     visibility: hidden;
 }
@@ -265,7 +266,7 @@ body {
 }
 .fa-chevron-up,
 .fa-chevron-down {
-    color: var(--primaryColor);
+    color: #e8505b;
     cursor: pointer;
 }
 /* -------------------- end of cart item -------------------- */
